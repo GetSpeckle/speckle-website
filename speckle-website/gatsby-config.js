@@ -2,10 +2,18 @@ module.exports = {
   siteMetadata: {
     title: `SpeckleOS`,
     description: `Explore the new web easier than ever`,
-    author: `@gatsbyjs`,
+    author: `@speckle`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Nunito`
+        ]
+      }
+    },
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,

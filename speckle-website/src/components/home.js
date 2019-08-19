@@ -4,7 +4,10 @@ import main from "../images/main.svg"
 import chrome from "../images/download_chrome.svg"
 import brave from "../images/download_brave.svg"
 import firefox from  "../images/download_firefox.svg"
-import Flickity from 'react-flickity-component'
+const Flickity =
+  typeof window !== "undefined"
+    ? require("react-flickity-component")
+    : () => null
 import './flickity.css'
 import screen1 from "../images/Screen1.svg"
 import screen2 from "../images/Screen2.svg"
@@ -15,14 +18,6 @@ import screen5 from "../images/Screen5.svg"
 const flickityOptions = {
   initialIndex: 0
 }
-
-const textList = [
-  "Manage assets across all Polkadot and Substrate-compatible chains",
-  "Discover, curate and select the chains you want to use",
-  "Actively participate in governance processes across the network",
-  "Participate in the security of the network by staking your DOTS",
-  "Easy and effortless to setup in 3 simple steps"
-  ]
 
 class Home extends React.Component {
 

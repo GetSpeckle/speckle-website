@@ -643,3 +643,12 @@ pre tt:after {
   z-index: 1;
 }
 
+.section1-carousel {
+  width: 443px;
+  height: 573px;
+  position: absolute !important;
+  left: 63.5%;
+  right: 22.92%;
+  top: 10.62%;
+  z-index: 80;
+}
