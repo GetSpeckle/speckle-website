@@ -54,7 +54,7 @@ class Home extends React.Component {
           options={flickityOptions} // takes flickity options {}
           disableImagesLoaded={false} // default false
           reloadOnUpdate // default false
-          static // default false
+          static={true} // default false
         >
           <img src={`${screen1}`}/>
           <img src={`${screen2}`}/>
