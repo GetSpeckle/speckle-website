@@ -149,12 +149,3 @@ right: 22.92%;
 top: 10.62%;
 z-index: 80;
 `
-const Explain = styled.div`
-  width: 148px;
-  font-size: 14px;
-  height: 50px;
-  position: absolute;
-  left: 110.61%;
-  right: 11.11%;
-  top: 66.25%;
-`
