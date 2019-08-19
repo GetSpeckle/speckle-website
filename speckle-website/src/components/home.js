@@ -78,7 +78,9 @@ width: 1160px;
 height: 657px;
 left: 12%;
 top: 93px;
-overflow: visible;
+@media (max-width: 720px) {
+    background: white;
+   }
 `
 
 const Header = styled.h2`
@@ -110,6 +112,11 @@ width: 550px;
 height: 286px;
 margin-top: 172px;
 margin-left: 158px;
+@media (max-width: 720px) {
+    position: absolute;
+    top: -20%;
+    left: -8%;
+}
 `
 
 const Chrome = styled.div`

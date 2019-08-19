@@ -16,28 +16,28 @@ const Header = ({ siteTitle }) => (
   >
     <HeaderContent>
       <Link to="/">
-          <SpeckleLogo/>
+        <SpeckleLogo/>
       </Link>
       <NavBar>
         <div>
-              <a style={{"textDecoration": "none"}} href={"https://www.github.com/speckleos/speckle-browser-extension"}>
-                <li>Github</li>
-              </a>
+          <a style={{"textDecoration": "none"}} href={"https://www.github.com/speckleos/speckle-browser-extension"}>
+            <li>Github</li>
+          </a>
         </div>
         <div>
-              <a style={{"textDecoration": "none"}} href={"https://www.github.com/speckleos/speckle-browser-extension"}>
-                <li>Contact</li>
-              </a>
+          <a style={{"textDecoration": "none"}} href={"https://www.github.com/speckleos/speckle-browser-extension"}>
+            <li>Contact</li>
+          </a>
         </div>
         <div>
-              <a style={{"textDecoration": "none"}} href={"https://www.github.com/speckleos/speckle-browser-extension"}>
-                <li>Blog</li>
-              </a>
+          <a style={{"textDecoration": "none"}} href={"https://www.github.com/speckleos/speckle-browser-extension"}>
+            <li>Blog</li>
+          </a>
         </div>
         <div>
-             <a style={{"textDecoration": "none"}} href={"https://www.twitter.com/speckleos"}>
-                <li>Twitter</li>
-              </a>
+          <a style={{"textDecoration": "none"}} href={"https://www.twitter.com/speckleos"}>
+            <li>Twitter</li>
+          </a>
         </div>
       </NavBar>
       <GetStarted><h3>Get Started</h3></GetStarted>
@@ -83,6 +83,10 @@ const NavBar = styled.div`
     text-decoration: none;
     display: inline;
   }
+  
+  @media (max-width: 720px) {
+    display: none;
+   }
 `
 
 const GetStarted = styled.button`
