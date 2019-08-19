@@ -82,6 +82,10 @@ width: 1122px;
 height: 657px;
 left: 12%;
 top: 93px;
+@media (max-width: 720px) {
+    background: white;
+    display: flex;
+}
 `
 
 const Header = styled.h2`

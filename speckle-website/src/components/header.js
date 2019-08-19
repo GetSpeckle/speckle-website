@@ -83,6 +83,10 @@ const NavBar = styled.div`
     text-decoration: none;
     display: inline;
   }
+  
+  @media (max-width: 720px) {
+    display: none;
+   }
 `
 
 const GetStarted = styled.button`
