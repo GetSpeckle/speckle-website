@@ -18,7 +18,8 @@ import screen5 from "../images/Screen5.svg"
 const flickityOptions = {
   initialIndex: 0,
   imagesLoaded: true,
-  autoPlay: 10000
+  autoPlay: 10000,
+  lazyLoad: true
 }
 
 class Home extends React.Component {
@@ -63,7 +64,6 @@ class Home extends React.Component {
           <div className="screen4"/>
           <div className="screen5"/>
         </Carousel>
-
       </Main>
     )
   }
@@ -79,6 +79,12 @@ height: 657px;
 left: 12%;
 top: 93px;
 @media (max-width: 720px) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 650px;
+    height: 1000px;
+    overflow: hidden;
     background: white;
    }
 `
@@ -89,7 +95,6 @@ font-style: normal;
 font-weight: 800;
 font-size: 32px;
 line-height: 43px;
-/* or 134% */
 text-align: center;
 letter-spacing: 1.6px;
 
@@ -113,9 +118,6 @@ height: 286px;
 margin-top: 172px;
 margin-left: 158px;
 @media (max-width: 720px) {
-    position: absolute;
-    top: -20%;
-    left: -8%;
 }
 `
 
@@ -152,5 +154,8 @@ left: 63.5%;
 right: 22.92%;
 top: 10.62%;
 z-index: 80;
+@media (max-width: 720px) {
+}
+    
 `
 
