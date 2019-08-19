@@ -17,7 +17,7 @@ import screen5 from "../images/Screen5.svg"
 
 const flickityOptions = {
   initialIndex: 0,
-  imagesLoaded: true
+  lazyLoad: true
 }
 
 class Home extends React.Component {
