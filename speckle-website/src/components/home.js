@@ -11,13 +11,14 @@ const Flickity =
 import './flickity.css'
 import screen1 from "../images/Screen1.svg"
 import screen2 from "../images/Screen2.svg"
-import screen3 from "../images/Screen3.svg"
+import screen3 from "../images/Screen3.png"
 import screen4 from "../images/Screen4.svg"
 import screen5 from "../images/Screen5.svg"
 
 const flickityOptions = {
   initialIndex: 0,
-  imagesLoaded: true
+  imagesLoaded: true,
+  autoPlay: 1500
 }
 
 class Home extends React.Component {
@@ -73,7 +74,7 @@ export default Home
 const Main = styled.div`
 background: url(${main}) no-repeat center;
 position: absolute;
-width: 1122px;
+width: 1160px;
 height: 657px;
 left: 12%;
 top: 93px;
@@ -144,13 +145,4 @@ left: 63.5%;
 right: 22.92%;
 top: 10.62%;
 z-index: 80;
-`
-const Explain = styled.div`
-  width: 148px;
-  font-size: 14px;
-  height: 50px;
-  position: absolute;
-  left: 110.61%;
-  right: 11.11%;
-  top: 66.25%;
 `
