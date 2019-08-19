@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1170px" height="681px" viewBox="0 0 1170 681" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
-    <title>Group 6</title>
+    <title>Group</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <radialGradient cx="50%" cy="27.5165264%" fx="50%" fy="27.5165264%" r="72.4834736%" id="radialGradient-1">
@@ -38,7 +38,7 @@
             <stop stop-color="#FFC10B" offset="0%"></stop>
             <stop stop-color="#FFB200" offset="100%"></stop>
         </radialGradient>
-        <circle id="path-11" cx="250.5" cy="297.5" r="71.5"></circle>
+        <circle id="path-11" cx="266.5" cy="297.5" r="71.5"></circle>
         <filter x="-26.2%" y="-26.2%" width="152.4%" height="152.4%" filterUnits="objectBoundingBox" id="filter-12">
             <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
@@ -102,8 +102,8 @@
         </filter>
     </defs>
     <g id="1---Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="1.4.1---Home-Page" transform="translate(-73.000000, -69.000000)">
-            <g id="Group-6" transform="translate(97.000000, 93.000000)">
+        <g id="1.4.4---Home-Page" transform="translate(-73.000000, -69.000000)">
+            <g id="Group" transform="translate(97.000000, 93.000000)">
                 <g id="Ellements" transform="translate(21.000000, 32.000000)">
                     <g id="Group-4" transform="translate(606.500000, 64.500000) scale(-1, 1) translate(-606.500000, -64.500000) translate(571.000000, 0.000000)">
                         <rect id="Rectangle-Copy-5" stroke="#45BFEB" stroke-width="3" transform="translate(9.485281, 41.485281) rotate(-315.000000) translate(-9.485281, -41.485281) " x="4.98528137" y="36.9852814" width="9" height="9" rx="2"></rect>
@@ -120,44 +120,45 @@
                         <circle id="Oval-Copy-13" fill="#45BFEB" opacity="0.407566034" cx="42" cy="6" r="6"></circle>
                     </g>
                 </g>
-                <g id="Left-Elements" transform="translate(740.000000, 21.000000)"></g>
-                <g id="Elements" transform="translate(740.000000, 21.000000)" fill-rule="nonzero">
-                    <g id="Element">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
-                        <use fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
-                    </g>
-                    <g id="Element">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
-                        <use fill="url(#radialGradient-4)" xlink:href="#path-5"></use>
-                    </g>
-                    <g id="Element">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
-                        <use fill="url(#radialGradient-7)" xlink:href="#path-8"></use>
-                    </g>
-                    <g id="Element">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
-                        <use fill="url(#radialGradient-10)" xlink:href="#path-11"></use>
-                    </g>
-                    <g id="Element">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-15)" xlink:href="#path-14"></use>
-                        <use fill="url(#radialGradient-13)" xlink:href="#path-14"></use>
+                <g id="Left-Elements" transform="translate(740.000000, 21.000000)" fill-rule="nonzero">
+                    <g id="Elements">
+                        <g id="Element-Copy">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+                        </g>
+                        <g id="Element-Copy-2">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            <use fill="url(#radialGradient-4)" xlink:href="#path-5"></use>
+                        </g>
+                        <g id="Element-Copy-3">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                            <use fill="url(#radialGradient-7)" xlink:href="#path-8"></use>
+                        </g>
+                        <g id="Element-Copy-4">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                            <use fill="url(#radialGradient-10)" xlink:href="#path-11"></use>
+                        </g>
+                        <g id="Element-Copy-5">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-15)" xlink:href="#path-14"></use>
+                            <use fill="url(#radialGradient-13)" xlink:href="#path-14"></use>
+                        </g>
                     </g>
                 </g>
                 <g id="Right-Elements" fill-rule="nonzero">
-                    <g id="Elements">
-                        <g id="Element">
+                    <g id="Elements-Copy">
+                        <g id="Element-Copy-6">
                             <use fill="black" fill-opacity="1" filter="url(#filter-18)" xlink:href="#path-17"></use>
                             <use fill="url(#radialGradient-16)" xlink:href="#path-17"></use>
                         </g>
-                        <g id="Element">
+                        <g id="Element-Copy-7">
                             <use fill="black" fill-opacity="1" filter="url(#filter-21)" xlink:href="#path-20"></use>
                             <use fill="url(#radialGradient-19)" xlink:href="#path-20"></use>
                         </g>
-                        <g id="Element">
+                        <g id="Element-Copy-8">
                             <use fill="black" fill-opacity="1" filter="url(#filter-24)" xlink:href="#path-23"></use>
                             <use fill="url(#radialGradient-22)" xlink:href="#path-23"></use>
                         </g>
-                        <g id="Element">
+                        <g id="Element-Copy-9">
                             <use fill="black" fill-opacity="1" filter="url(#filter-27)" xlink:href="#path-26"></use>
                             <use fill="url(#radialGradient-25)" xlink:href="#path-26"></use>
                         </g>

@@ -11,7 +11,7 @@ const Flickity =
 import './flickity.css'
 import screen1 from "../images/Screen1.svg"
 import screen2 from "../images/Screen2.svg"
-import screen3 from "../images/Screen3.svg"
+import screen3 from "../images/Screen3.png"
 import screen4 from "../images/Screen4.svg"
 import screen5 from "../images/Screen5.svg"
 
@@ -77,6 +77,7 @@ width: 1122px;
 height: 657px;
 left: 12%;
 top: 93px;
+overflow: visible;
 `
 
 const Header = styled.h2`
