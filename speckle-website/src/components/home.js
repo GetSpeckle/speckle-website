@@ -18,7 +18,7 @@ import screen5 from "../images/Screen5.svg"
 const flickityOptions = {
   initialIndex: 0,
   imagesLoaded: true,
-  autoPlay: 1500
+  autoPlay: 10000
 }
 
 class Home extends React.Component {
@@ -57,11 +57,11 @@ class Home extends React.Component {
           reloadOnUpdate
           static={true}
         >
-          <img src={`${screen1}`}/>
-          <img src={`${screen2}`}/>
-          <img src={`${screen3}`}/>
-          <img src={`${screen4}`}/>
-          <img src={`${screen5}`}/>
+          <Image filename={screen1}/>
+          <Image filename={screen2}/>
+          <Image filename={screen3}/>
+          <Image filename={screen4}/>
+          <Image filename={screen5}/>
         </Carousel>
 
       </Main>
@@ -145,4 +145,10 @@ left: 63.5%;
 right: 22.92%;
 top: 10.62%;
 z-index: 80;
+`
+
+const Image = styled.div`
+  background: url(${ props => props.filename});
+  width: 440px;
+  height: 440px;
 `
