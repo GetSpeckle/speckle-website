@@ -11,12 +11,13 @@ const Flickity =
 import './flickity.css'
 import screen1 from "../images/Screen1.svg"
 import screen2 from "../images/Screen2.svg"
-import screen3 from "../images/Screen3.png"
+import screen3 from "../images/Screen3.svg"
 import screen4 from "../images/Screen4.svg"
 import screen5 from "../images/Screen5.svg"
 
 const flickityOptions = {
-  initialIndex: 0
+  initialIndex: 0,
+  imagesLoaded: true
 }
 
 class Home extends React.Component {
@@ -52,9 +53,8 @@ class Home extends React.Component {
           className={'carousel'} // default ''
           elementType={'div'} // default 'div'
           options={flickityOptions} // takes flickity options {}
-          disableImagesLoaded={false} // default false
-          reloadOnUpdate // default false
-          static={true} // default false
+          reloadOnUpdate
+          static={true}
         >
           <img src={`${screen1}`}/>
           <img src={`${screen2}`}/>
