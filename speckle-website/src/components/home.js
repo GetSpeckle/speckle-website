@@ -57,11 +57,11 @@ class Home extends React.Component {
           reloadOnUpdate
           static={true}
         >
-          <Image filename={screen1}/>
-          <Image filename={screen2}/>
-          <Image filename={screen3}/>
-          <Image filename={screen4}/>
-          <Image filename={screen5}/>
+          <div className="screen1"/>
+          <div className="screen2"/>
+          <div className="screen3"/>
+          <div className="screen4"/>
+          <div className="screen5"/>
         </Carousel>
 
       </Main>
@@ -147,8 +147,3 @@ top: 10.62%;
 z-index: 80;
 `
 
-const Image = styled.div`
-  background: url(${ props => props.filename});
-  width: 440px;
-  height: 440px;
-`

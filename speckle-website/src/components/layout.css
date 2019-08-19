@@ -643,12 +643,32 @@ pre tt:after {
   z-index: 1;
 }
 
-.section1-carousel {
-  width: 443px;
-  height: 573px;
-  position: absolute !important;
-  left: 63.5%;
-  right: 22.92%;
-  top: 10.62%;
-  z-index: 80;
+.screen1 {
+  background: url("../images/Screen1.svg");
+  width: 440px;
+  height: 440px;
+}
+
+.screen2 {
+  background: url("../images/Screen2.svg");
+  width: 440px;
+  height: 440px;
+}
+
+.screen3 {
+  background: url("../images/Screen3.png");
+  width: 440px;
+  height: 440px;
+}
+
+.screen4 {
+  background: url("../images/Screen4.svg");
+  width: 440px;
+  height: 440px;
+}
+
+.screen5 {
+  background: url("../images/Screen5.svg");
+  width: 440px;
+  height: 440px;
 }
