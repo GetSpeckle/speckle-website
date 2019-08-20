@@ -4,6 +4,8 @@ import main from "../images/main.svg"
 import chrome from "../images/download_chrome.svg"
 import brave from "../images/download_brave.svg"
 import firefox from  "../images/download_firefox.svg"
+import kusama from "../images/kusama.svg"
+
 const Flickity =
   typeof window !== "undefined"
     ? require("react-flickity-component")
@@ -39,16 +41,14 @@ class Home extends React.Component {
           <Header>Your Web 3 wallet and browser built for Polkadot</Header>
           <SubHeader>Explore Polkadot and the decentralized web with this multi-purpose browser extension. Manage
             assets, discover parachains and interact with dApps all from your browser!</SubHeader>
+          <Soon>
+            <Text>Launching soon. Expect chaos to <Bold>look beautiful</Bold></Text>
+            <Kusama/>
+          </Soon>
           <Vendors>
-            <a href="https://www.google.com">
               <Chrome/>
-            </a>
-            <a href="https://www.brave.com">
               <Brave/>
-            </a>
-            <a href="https://www.firefox.com">
               <FireFox/>
-            </a>
           </Vendors>
         </Container>
         <Carousel
@@ -78,15 +78,6 @@ width: 1160px;
 height: 657px;
 left: 12%;
 top: 93px;
-@media (max-width: 720px) {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 650px;
-    height: 1000px;
-    overflow: hidden;
-    background: white;
-   }
 `
 
 const Header = styled.h2`
@@ -114,11 +105,11 @@ color: #535353;
 
 const Container = styled.div`
 width: 550px;
-height: 286px;
+height: 346px;
 margin-top: 172px;
 margin-left: 158px;
-@media (max-width: 720px) {
-}
+justify-contents: center;
+text-align:center;
 `
 
 const Chrome = styled.div`
@@ -156,6 +147,36 @@ top: 10.62%;
 z-index: 80;
 @media (max-width: 720px) {
 }
-    
 `
 
+const Soon = styled.div`
+display: flex;
+width: 600px;
+height: 60px;
+margin-left: 36px;
+justify-contents: space-between;
+align-items: center;
+`
+
+const Kusama = styled.div`
+  background: url(${kusama});
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  border-radius: 50%;
+`
+
+const Text = styled.div`
+  color: #30383b;
+  font-family: Nunito;
+  font-size: 20px;
+`
+
+const Bold = styled.span`
+font-family: Nunito;
+font-style: normal;
+font-weight: 800;
+letter-spacing: 1.6px;
+
+color: #45BFEB;
+`
