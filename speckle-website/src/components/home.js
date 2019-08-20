@@ -42,7 +42,6 @@ class Home extends React.Component {
           <SubHeader>Explore Polkadot and the decentralized web with this multi-purpose browser extension. Manage
             assets, discover parachains and interact with dApps all from your browser!</SubHeader>
           <Soon>
-            <Text>Launching soon. Expect chaos to <Bold>look beautiful</Bold></Text>
             <Kusama/>
           </Soon>
           <Vendors>
@@ -152,31 +151,14 @@ z-index: 80;
 const Soon = styled.div`
 display: flex;
 width: 600px;
-height: 60px;
-margin-left: 36px;
+height: 80px;
 justify-contents: space-between;
 align-items: center;
 `
 
 const Kusama = styled.div`
+  margin-top: -30px;
   background: url(${kusama});
-  width: 30px;
-  height: 30px;
-  margin-left: 5px;
-  border-radius: 50%;
-`
-
-const Text = styled.div`
-  color: #30383b;
-  font-family: Nunito;
-  font-size: 20px;
-`
-
-const Bold = styled.span`
-font-family: Nunito;
-font-style: normal;
-font-weight: 800;
-letter-spacing: 1.6px;
-
-color: #45BFEB;
+  width: 550px;
+  height: 71px;
 `
